@@ -19,19 +19,17 @@
 #include <dt-bindings/zmk/backlight.h>
 
 / {
-  behaviors {
-    #include "macros.dtsi"
-
-    hm: homerow_mods {
-        compatible = "zmk,behavior-hold-tap";
-        label = "HOMEROW_MODS";
-        #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        quick_tap_ms = <175>;
-        flavor = "tap-preferred";
-        bindings = <&kp>, <&kp>;
-    };
-  };
+        behaviors {
+            as: auto_shift {
+                compatible = "zmk,behavior-hold-tap";
+                label = "AUTO_SHIFT";
+                #binding-cells = <2>;
+                tapping_term_ms = <135>;
+                quick_tap_ms = <0>;
+                flavor = "tap-preferred";
+                bindings = <&kp>, <&kp>;
+            };
+        };
 
     keymap {
         compatible = "zmk,keymap";
@@ -40,9 +38,9 @@
         default_layer {
             bindings = <
  &kp GRAVE        &kp N1        &kp N2             &kp N3  &kp N4  &kp N5               &tog 1                                                                 &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0        &kp DEL
-   &kp TAB         &kp Q         &kp W              &kp E   &kp R   &kp T                &none                                                                 &none   &kp Y   &kp U      &kp I     &kp O     &kp P  &kp BACKSPACE
- &lt 6 ESC         &kp A         &kp S              &kp D   &kp F   &kp G                &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none   &kp H   &kp J      &kp K     &kp L  &kp SEMI        &kp SQT
- &kp LSHFT         &kp Z         &kp X              &kp C   &kp V   &kp B                &none      &none  &kp HOME   &none   &none  &kp PG_UP      &none      &none   &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH      &kp ENTER
+   &kp TAB         AS(Q)         AS(W)              AS(E)   AS(R)   AS(T)                &none                                                                 &none   AS(Y)   AS(U)      AS(I)     AS(O)     AS(P)  &kp BACKSPACE
+ &lt 6 ESC         AS(A)         AS(S)              AS(D)   AS(F)   AS(G)                &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none   AS(H)   AS(J)     AS(K)     AS(L)  AS(SEMI)        AS(SQT)
+ &kp LSHFT         AS(Z)         AS(X)              AS(C)   AS(V)   AS(B)                &none      &none  &kp HOME   &none   &none  &kp PG_UP      &none      &none   AS(N)   AS(M)  AS(COMMA)   AS(DOT)  AS(FSLH)      &kp ENTER
  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp RIGHT_CONTROL   &mo 4                    &kp SPACE    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE           &mo 5   &kp LEFT  &kp DOWN    &kp UP      &kp RIGHT
             >;
         };
