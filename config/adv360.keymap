@@ -18,6 +18,8 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
 
+#define AS(keycode) &as LS(keycode) keycode
+
 / {
         behaviors {
             as: auto_shift {
