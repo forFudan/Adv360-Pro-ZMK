@@ -49,21 +49,21 @@
 
         layer_keypad {
             bindings = <
-  &none   &none   &none   &none   &none   &none            &trans                                                   &mo 3   &none  &kp KP_NUM     &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY   &none
-  &none   &none   &none   &none   &none   &none             &none                                                   &none   &none   &kp KP_N7        &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &none
-  &none   &none   &none   &none   &none   &none             &none  &trans  &trans                  &trans  &trans   &none   &none   &kp KP_N4        &kp KP_N5      &kp KP_N6      &kp KP_PLUS   &none
-  &none   &none   &none   &none   &none   &none             &none   &none  &trans   &none   &none  &trans   &none   &none   &none   &kp KP_N1        &kp KP_N2      &kp KP_N3     &kp KP_ENTER   &none
-  &none   &none   &none   &none   &none                    &trans  &trans  &trans                  &trans  &trans  &trans               &none  &kp KP_NUMBER_0     &kp KP_DOT            &none   &none
+ &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &trans                                                                 &mo 3  &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+   &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T               &none                                                                 &none   &kp Y   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp BSLH
+   &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G               &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none   &kp H   &kp KP_N4     &kp KP_N5      &kp KP_N6      &kp KP_PLUS    &kp SQT
+ &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B               &none      &none  &kp HOME   &none   &none  &kp PG_UP      &none      &none   &kp N   &kp KP_N1     &kp KP_N2      &kp KP_N3     &kp KP_ENTER  &kp RSHFT
+     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp KP_N0              &kp UP      &kp DOWN     &kp KP_DOT         &kp RBKT      &mo 2
             >;
         };
 
         layer_fn {
             bindings = <
-   &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-   &trans  &trans  &trans  &trans  &trans  &trans             &none                                                   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &kp CAPS  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                  &trans  &trans   &none  &trans  &trans  &trans   &trans   &trans   &trans
-   &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans   &none   &none  &trans   &none   &none  &trans  &trans  &trans   &trans   &trans   &trans
-   &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
+ &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+ &trans  &trans  &trans  &trans  &trans  &trans             &none                                                   &none  &trans  &trans  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                  &trans  &trans   &none  &trans  &trans  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans   &none   &none  &trans   &none   &none  &trans  &trans  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
             >;
         };
 
@@ -79,11 +79,11 @@
 
         layer_lower {
             bindings = <
- &trans           &trans  &trans    &trans      &trans       &trans            &trans                                                  &trans     &trans          &trans             &trans            &trans             &trans         &trans
- &trans           &trans  &trans    &trans      &trans       &trans            &trans                                                  &trans     &trans       &kp MINUS          &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
- &trans  &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT            &trans  &trans  &trans                  &trans  &trans  &trans  &kp CARET   &kp AMPERSAND          &kp ASTRK          &kp LPAR           &kp RPAR        &kp DQT
- &trans           &trans  &trans    &trans      &trans       &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &kp UNDERSCORE           &kp PLUS          &kp LBRC           &kp RBRC       &kp PIPE
- &trans           &trans  &trans    &trans      &trans                         &trans  &trans  &trans                  &trans  &trans  &trans                     &trans  &kp C_VOLUME_DOWN        &kp C_MUTE    &kp C_VOLUME_UP         &trans
+    &trans           &trans    &trans    &trans          &trans       &trans            &trans                                                  &trans     &trans          &trans     &trans            &trans             &trans         &trans
+  &kp PIPE         &kp LBRC  &kp RBRC  &kp PLUS  &kp UNDERSCORE       &trans            &trans                                                  &trans     &trans       &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
+ &kp TILDE  &kp EXCLAMATION    &kp AT  &kp HASH        &kp DLLR  &kp PERCENT            &trans  &trans  &trans                  &trans  &trans  &trans  &kp CARET   &kp AMPERSAND  &kp ASTRK          &kp LPAR           &kp RPAR        &kp DQT
+    &trans           &trans    &trans    &trans          &trans       &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &kp UNDERSCORE   &kp PLUS          &kp LBRC           &kp RBRC       &kp PIPE
+    &trans           &trans    &trans    &trans          &trans                         &trans  &trans  &trans                  &trans  &trans  &trans                     &trans     &trans            &trans             &trans         &trans
             >;
         };
 
@@ -99,11 +99,11 @@
 
         layer_navigation {
             bindings = <
- &trans  &trans  &trans  &trans  &trans           &trans            &trans                                                  &trans    &trans       &trans       &trans         &trans   &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &kp PRINTSCREEN            &trans                                                  &trans     &none  &kp PAGE_UP       &kp UP  &kp PAGE_DOWN  &kp INS  &trans
- &trans  &trans  &trans  &trans  &trans       &kp K_CALC            &trans  &trans  &trans                  &trans  &trans  &trans     &none     &kp LEFT     &kp DOWN      &kp RIGHT  &kp DEL   &none
- &trans  &trans  &trans  &trans  &trans           &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME      &kp END  &kp PAGE_UP  &kp PAGE_DOWN   &trans  &trans
- &trans  &trans  &trans  &trans  &trans                             &trans  &trans  &trans                  &trans  &trans  &trans                 &trans       &trans         &trans   &trans  &trans
+ &trans  &trans  &trans  &trans  &trans           &trans            &trans                                                  &trans    &trans       &trans    &trans         &trans   &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &kp PRINTSCREEN            &trans                                                  &trans     &none  &kp PAGE_UP    &kp UP  &kp PAGE_DOWN  &kp INS  &trans
+ &trans  &trans  &trans  &trans  &trans       &kp K_CALC            &trans  &trans  &trans                  &trans  &trans  &trans     &none     &kp LEFT  &kp DOWN      &kp RIGHT  &kp DEL   &none
+ &trans  &trans  &trans  &trans  &trans           &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME      &kp END    &trans         &trans   &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                             &trans  &trans  &trans                  &trans  &trans  &trans                 &trans    &trans         &trans   &trans  &trans
             >;
         };
 
