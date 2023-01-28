@@ -79,7 +79,7 @@
 
         layer_navi {
             bindings = <
- &trans        &trans        &trans        &trans        &trans        &trans            &trans                                                  &trans         &trans         &trans             &trans            &trans             &trans   &trans
+ &trans      &kp EXCL        &kp AT      &kp HASH    &kp DOLLAR   &kp PERCENT            &trans                                                  &trans      &kp CARET       &kp AMPS          &kp ASTRK          &kp LPAR           &kp RPAR   &trans
  &trans      &kp LBRC      &kp RBRC      &kp PLUS     &kp UNDER      &kp PIPE            &trans                                                  &trans  &kp BACKSLASH      &kp MINUS          &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &trans
  &trans        AS(N1)        AS(N2)        AS(N3)        AS(N4)        AS(N5)            &trans  &trans  &trans                  &trans  &trans  &trans       &kp LEFT       &kp DOWN             &kp UP         &kp RIGHT         &kp DELETE  &kp DQT
  &trans        AS(N6)        AS(N7)        AS(N8)        AS(N9)        AS(N0)            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &kp HOME  &kp PAGE_DOWN        &kp PAGE_UP           &kp END             &trans   &trans
