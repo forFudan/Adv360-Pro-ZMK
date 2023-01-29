@@ -36,9 +36,9 @@
         "&none",        "&none",        "&none",   "&bl BL_INC",   "&bl BL_DEC",                                  "&rgb_ug RGB_TOG", "&bl BL_TOG",  "&none",                          "&none", "&bl BL_TOG",        "&rgb_ug RGB_TOG",                   "&bl BL_INC",   "&bl BL_DEC",        "&none",        "&none",  "&none"
     ], [
           "&trans", "&kp EXCL",   "&kp AT", "&kp HASH", "&kp DOLLAR",      "&kp PERCENT",      "&trans",                                                             "&trans",     "&kp CARET",  "&kp AMPS",         "&kp ASTRK",         "&kp LPAR",          "&kp RPAR",        "&trans",
-        "&kp PIPE", "&kp LBRC", "&kp RBRC", "&kp PLUS",  "&kp UNDER",  "&kp PRINTSCREEN",      "&trans",                                                             "&trans", "&kp INS", "&kp MINUS",         "&kp EQUAL", "&kp LEFT_BRACKET", "&kp RIGHT_BRACKET", "&kp BACKSLASH",
+        "&kp PIPE", "&kp LBRC", "&kp RBRC", "&kp PLUS",  "&kp UNDER",  "&kp PRINTSCREEN",      "&trans",                                                             "&trans", "&kp INS", "&kp MINUS",         "&kp EQUAL", "&kp LBKT", "&kp RBKT", "&kp BACKSLASH",
        "&kp SPACE",   "&kp N1",   "&kp N2",   "&kp N3",     "&kp N4",           "&kp N5",      "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",      "&kp LEFT",  "&kp DOWN",            "&kp UP",        "&kp RIGHT",        "&kp DELETE",       "&kp DQT",
-          "&trans",   "&kp N6",   "&kp N7",   "&kp N8",     "&kp N9",           "&kp N0",      "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",      "&kp HOME",   "&kp END",       "&kp PAGE_UP",    "&kp PAGE_DOWN",            "&trans",        "&trans",
+          "&trans",   "&kp N6",   "&kp N7",   "&kp N8",     "&kp N9",           "&kp N0",      "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",      "&kp HOME",         "&kp PAGE_DOWN",    "&kp PAGE_UP",      "&kp END",       "&trans",        "&trans",
           "&trans",   "&trans",   "&trans",  "&kp DOT",    "&kp DOT",                          "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&kp C_VOLUME_DOWN",       "&kp C_MUTE",   "&kp C_VOLUME_UP",        "&trans"
     ]
   ]
