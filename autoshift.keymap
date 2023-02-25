@@ -40,8 +40,8 @@
         default_layer {
             bindings = <
  AS(EQUAL)      AS(N1)         AS(N2)     AS(N3)      AS(N4)   AS(N5)            &tog 1                                                                      &mo 3   AS(N6)     AS(N7)      AS(N8)     AS(N9)     AS(N0)      AS(MINUS)
- &lt 1 TAB       AS(Q)          AS(W)      AS(E)       AS(R)    AS(T)         &kp SPACE                                                              &kp BACKSPACE    AS(Y)      AS(U)       AS(I)      AS(O)      AS(P)  &kp BACKSPACE
- &lt 4 ESC       AS(A)          AS(S)      AS(D)       AS(F)    AS(G)         &kp ENTER  &kp RCTRL  &kp LGUI                   &kp LGUI   &kp RCTRL     &kp DELETE    AS(H)      AS(J)       AS(K)      AS(L)   AS(SEMI)        AS(SQT)
+ &lt 1 TAB       AS(Q)          AS(W)      AS(E)       AS(R)    AS(T)         &kp SPACE                                                              &kp PRINTSCREEN    AS(Y)      AS(U)       AS(I)      AS(O)      AS(P)  &kp BACKSPACE
+ &lt 4 ESC       AS(A)          AS(S)      AS(D)       AS(F)    AS(G)         &kp ENTER  &kp RCTRL  &kp LGUI                   &kp LGUI   &kp RCTRL     &kp INSERT    AS(H)      AS(J)       AS(K)      AS(L)   AS(SEMI)        AS(SQT)
  &kp LSHFT       AS(Z)          AS(X)      AS(C)       AS(V)    AS(B)             &none      &none  &kp HOME   &none   &none  &kp PG_UP       &none          &none    AS(N)      AS(M)   AS(COMMA)    AS(DOT)   AS(FSLH)      &kp ENTER
  &kp LCTRL   AS(GRAVE)   &kp LEFT_ALT   &kp LEFT   &kp RIGHT                      &mo 4  &kp RCTRL   &kp END                  &kp PG_DN  &kp RSHIFT      &kp SPACE            &kp DOWN      &kp UP   AS(LBKT)   AS(RBKT)          &mo 2
             >;
@@ -60,9 +60,9 @@
         layer_fn {
             bindings = <
    &kp F1  &kp F2  &kp F3  &kp F4  &kp F5   &kp F6            &tog 1                                                   &mo 3   &kp F7   &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-   &trans  &trans  &trans  &trans  &trans   &trans             &none                                                   &none   &trans   &trans  &trans   &trans   &trans   &trans
- &kp CAPS  &kp F1  &kp F2  &kp F3  &kp F4   &kp F5             &none  &trans  &trans                  &trans  &trans   &none  &kp F11  &kp F12  &trans   &trans   &trans   &trans
-   &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10             &none   &none  &trans   &none   &none  &trans   &none   &none   &trans   &trans  &trans   &trans   &trans   &trans
+   &trans  &kp F1  &kp F2  &kp F3  &kp F4   &kp F5             &none                                                   &none   &kp F6   &kp F7  &kp F8  &kp F9   &kp F10   &trans
+ &kp CAPS  &kp F11  &kp F12  &trans  &trans   &trans             &none  &trans  &trans                  &trans  &trans   &none   &trans   &trans  &trans   &trans   &trans   &trans
+   &trans  &trans  &trans  &trans  &trans   &trans             &none   &none  &trans   &none   &none  &trans   &none   &none   &trans   &trans  &trans   &trans   &trans   &trans
    &trans  &trans  &trans  &trans  &trans                     &trans  &trans  &trans                  &trans  &trans  &trans            &trans  &trans   &trans   &trans   &trans
             >;
         };
@@ -80,8 +80,8 @@
         layer_navi {
             bindings = <
     &trans  &kp EXCL    &kp AT  &kp HASH  &kp DOLLAR      &kp PERCENT     &trans                                                  &trans       &kp CARET     &kp AMPS    &kp ASTRK           &kp LPAR          &kp RPAR         &trans
-  &kp PIPE  &kp LBRC  &kp RBRC  &kp PLUS   &kp UNDER  &kp PRINTSCREEN     &trans                                                  &trans      &kp INSERT    AS(MINUS)    AS(EQUAL)           AS(LBKT)          AS(RBKT)  AS(BACKSLASH)
- &kp SPACE  &kp EXCL    &kp AT  &kp HASH  &kp DOLLAR      &kp PERCENT     &trans  &trans  &trans                  &trans  &trans  &trans        &kp LEFT     &kp DOWN       &kp UP          &kp RIGHT        &kp DELETE  &kp BACKSPACE
+    &trans  &kp LBRC  &kp RBRC  &kp PLUS   &kp UNDER  &kp PIPE     &trans                                                  &trans      AS(BACKSLASH)    AS(MINUS)    AS(EQUAL)           AS(LBKT)          AS(RBKT)  &trans
+ &kp SPACE  &kp EXCL    &kp AT  &kp HASH  &kp DOLLAR      &kp PERCENT     &trans  &trans  &trans                  &trans  &trans  &trans        &kp LEFT     &kp DOWN       &kp UP          &kp RIGHT        &kp DELETE  &trans
     &trans  &kp CARET &kp AMPS &kp ASTRK    &kp LPAR         &kp RPAR     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &kp HOME      &kp END    &kp PG_UP          &kp PG_DN            &trans         &trans
     &trans    &trans    &trans   &kp DOT     &kp DOT                      &trans  &trans  &trans                  &trans  &trans  &trans            &kp C_VOLUME_DOWN   &kp C_MUTE    &kp C_VOLUME_UP            &trans         &trans      
             >;
