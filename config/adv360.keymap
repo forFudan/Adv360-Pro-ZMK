@@ -43,7 +43,7 @@
  &lt 1 TAB       AS(Q)          AS(W)      AS(E)       AS(R)    AS(T)         &kp SPACE                                                            &kp PRINTSCREEN    AS(Y)      AS(U)       AS(I)      AS(O)      AS(P)  &kp BACKSPACE
  &lt 4 ESC       AS(A)          AS(S)      AS(D)       AS(F)    AS(G)         &kp ENTER  &kp RCTRL  &kp RGUI                   &kp RGUI   &kp RCTRL     &kp INSERT    AS(H)      AS(J)       AS(K)      AS(L)   AS(SEMI)        AS(SQT)
  &kp LSHFT       AS(Z)          AS(X)      AS(C)       AS(V)    AS(B)             &none      &none  &kp HOME   &none   &none  &kp PG_UP       &none          &none    AS(N)      AS(M)   AS(COMMA)    AS(DOT)   AS(FSLH)      &kp ENTER
- &kp LCTRL    &kp LGUI   &kp LEFT_ALT   &kp LEFT   &kp RIGHT                      &mo 4  &kp RCTRL   &kp END                  &kp PG_DN  &kp RSHIFT      &kp SPACE            &kp DOWN      &kp UP   AS(LBKT)   AS(RBKT)          &mo 2
+ &kp LCTRL    &kp LGUI   &kp LEFT_ALT   &kp CAPS   &kp RCTRL                      &mo 4  &kp RCTRL   &kp END                  &kp PG_DN  &kp RSHIFT      &kp SPACE            &kp DOWN      &kp UP   &kp LEFT  &kp RIGHT          &mo 2
             >;
         };
 
@@ -53,7 +53,7 @@
    &kp TAB      &kp Q         &kp W     &kp E      &kp R   &kp T             &none                                                   &none   &none        &kp KP_N7        &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &none
    &kp ESC      &kp A         &kp S     &kp D      &kp F   &kp G             &none  &trans  &trans                  &trans  &trans   &none   &none        &kp KP_N4        &kp KP_N5      &kp KP_N6      &kp KP_PLUS   &none
  &kp LSHFT      &kp Z         &kp X     &kp C      &kp V   &kp B             &none   &none  &trans   &none   &none  &trans   &none   &none   &none        &kp KP_N1        &kp KP_N2      &kp KP_N3     &kp KP_ENTER   &none
- &kp LCTRL   &kp LGUI  &kp LEFT_ALT  &kp LEFT  &kp RIGHT                    &trans  &trans  &trans                  &trans  &trans  &trans                &kp KP_N0        &kp KP_N0     &kp KP_DOT            &none   &none
+ &kp LCTRL   &kp LGUI  &kp LEFT_ALT  &kp CAPS  &kp RCTRL                    &trans  &trans  &trans                  &trans  &trans  &trans                &kp KP_N0        &kp KP_N0     &kp KP_DOT            &none   &none
             >;
         };
 
@@ -81,7 +81,7 @@
             bindings = <
     &trans  &kp EXCL    &kp AT  &kp HASH  &kp DOLLAR      &kp PERCENT     &trans                                                  &trans       &kp CARET     &kp AMPS    &kp ASTRK           &kp LPAR          &kp RPAR         &trans
     &trans  &kp LBRC  &kp RBRC  &kp PLUS   &kp UNDER  &kp PIPE     &trans                                                  &trans      AS(BACKSLASH)    AS(MINUS)    AS(EQUAL)           AS(LBKT)          AS(RBKT)  &trans
- &kp SPACE  &kp EXCL    &kp AT  &kp HASH  &kp DOLLAR      &kp PERCENT     &trans  &trans  &trans                  &trans  &trans  &trans        &kp LEFT     &kp DOWN       &kp UP          &kp RIGHT        &kp DELETE  &trans
+ &kp SPACE  &kp EXCL    &kp AT  &kp HASH  &kp DOLLAR      &kp PERCENT     &trans  &trans  &trans                  &trans  &trans  &trans        &kp LEFT     &kp DOWN       &kp UP          &kp RIGHT        &kp DELETE  &kp BACKSPACE
     &trans  &kp CARET &kp AMPS &kp ASTRK    &kp LPAR         &kp RPAR     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &kp HOME      &kp END    &kp PG_UP          &kp PG_DN            &trans         &trans
     &trans    &trans    &trans   &kp DOT     &kp DOT                      &trans  &trans  &trans                  &trans  &trans   &mo 2            &kp C_VOLUME_DOWN   &kp C_MUTE    &kp C_VOLUME_UP            &trans         &trans      
             >;
