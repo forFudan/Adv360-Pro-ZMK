@@ -82,7 +82,7 @@
     &trans  &kp EXCL    &kp AT  &kp HASH  &kp DOLLAR      &kp PERCENT     &trans                                                  &trans       &kp CARET     &kp AMPS    &kp ASTRK           &kp LPAR          &kp RPAR         &trans
     &trans  &kp LBRC  &kp RBRC  &kp PLUS   &kp UNDER  &kp PIPE     &trans                                                  &trans      AS(BACKSLASH)    AS(MINUS)    AS(EQUAL)           AS(LBKT)          AS(RBKT)  &trans
  &kp SPACE  &kp EXCL    &kp AT  &kp HASH  &kp DOLLAR      &kp PERCENT     &trans  &trans  &trans                  &trans  &trans  &trans        &kp LEFT     &kp DOWN       &kp UP          &kp RIGHT        &kp DELETE  &kp BACKSPACE
-    &trans  &kp CARET &kp AMPS &kp ASTRK    &kp LPAR         &kp RPAR     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &kp HOME      &kp END    &kp PG_UP          &kp PG_DN            &trans         &trans
+    &trans  &kp CARET &kp AMPS &kp ASTRK    &kp LPAR         &kp RPAR     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &kp HOME    &kp PG_DN    &kp PG_UP            &kp END     &kp BACKSPACE         &trans
     &trans    &trans    &trans   &kp DOT     &kp DOT                      &trans  &trans  &trans                  &trans  &trans   &mo 2            &kp C_VOLUME_DOWN   &kp C_MUTE    &kp C_VOLUME_UP            &trans         &trans      
             >;
         };
