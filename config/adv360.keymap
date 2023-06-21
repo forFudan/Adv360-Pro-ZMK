@@ -43,7 +43,7 @@
  &lt 1 TAB       AS(Q)          AS(W)      AS(E)       AS(R)    AS(T)         &kp SPACE                                                            &kp PRINTSCREEN    AS(Y)      AS(U)       AS(I)      AS(O)      AS(P)  &kp BACKSPACE
  &lt 4 ESC       AS(A)          AS(S)      AS(D)       AS(F)    AS(G)         &kp ENTER  &kp RCTRL  &kp RGUI                   &kp RGUI   &kp RCTRL     &kp INSERT    AS(H)      AS(J)       AS(K)      AS(L)   AS(SEMI)        AS(SQT)
  &kp LSHFT       AS(Z)          AS(X)      AS(C)       AS(V)    AS(B)             &none      &none  &kp HOME   &none   &none  &kp PG_UP       &none          &none    AS(N)      AS(M)   AS(COMMA)    AS(DOT)   AS(FSLH)      &kp ENTER
- &kp LCTRL    &kp LGUI   &kp LEFT_ALT   &kp CAPS   &kp RCTRL                      &mo 4  &kp RCTRL   &kp END                  &kp PG_DN  &kp RSHIFT      &kp SPACE           &kp LEFT   &kp DOWN      &kp UP   &kp RIGHT          &mo 2
+ &kp LCTRL    &kp LGUI   &kp LEFT_ALT   &kp CAPS   &kp RCTRL                &lt 4 SPACE  &kp RCTRL   &kp END                  &kp PG_DN  &kp RSHIFT      &kp SPACE           &kp LEFT   &kp DOWN      &kp UP   &kp RIGHT          &mo 2
             >;
         };
 
