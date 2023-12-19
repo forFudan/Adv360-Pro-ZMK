@@ -20,6 +20,12 @@
 
 #define AS(keycode) &as LS(keycode) keycode
 
+&lt {
+    flavor = "hold-preferred";
+    tapping-term-ms = <200>;
+    quick-tap-ms = <200>;
+};
+
 / {
         behaviors {
             as: auto_shift {
