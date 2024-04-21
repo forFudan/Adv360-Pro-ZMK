@@ -91,11 +91,11 @@
 
         navi {
             bindings = <
-    &trans   &kp EXCL      &kp AT    &kp HASH    &kp DOLLAR      &kp PERCENT      &trans                                                  &trans     &kp CARET            &kp AMPS      &kp ASTRK           &kp LPAR        &kp RPAR       &trans
- AS(GRAVE)     AS(N1)      AS(N2)      AS(N3)        AS(N4)           AS(N5)      &trans                                                  &trans        AS(N6)              AS(N7)         AS(N8)             AS(N9)          AS(N0)       &trans
-    &trans  AS(MINUS)   AS(EQUAL)    AS(LBKT)      AS(RBKT)    AS(BACKSLASH)      &trans          &trans  &trans  &trans  &trans          &trans      &kp LEFT            &kp DOWN         &kp UP          &kp RIGHT   &kp BACKSPACE    &kp ENTER
-    &trans  &kp UNDER    &kp PLUS    &kp LBRC      &kp RBRC         &kp PIPE                              &trans  &trans                              &kp HOME           &kp PG_DN      &kp PG_UP            &kp END      &kp DELETE       &trans
-    &trans     &trans      &trans     &kp DOT       &kp DOT                               &trans  &trans  &trans  &trans  &trans  &mo 2                          &kp C_VOLUME_DOWN     &kp C_MUTE    &kp C_VOLUME_UP          &trans       &trans           
+    &trans   &kp EXCL      &kp AT       &kp HASH    &kp DOLLAR      &kp PERCENT      &trans                                                  &trans      &kp CARET            &kp AMPS      &kp ASTRK           &kp LPAR        &kp RPAR       &trans
+ AS(GRAVE)   &kp LBRC    &kp RBRC       &kp PLUS     &kp UNDER         &kp PIPE      &trans                                                  &trans  AS(BACKSLASH)           AS(MINUS)      AS(EQUAL)           AS(LBKT)        AS(RBKT)       &trans
+    &trans      &none   &kp ENTER  &kp BACKSPACE    &kp DELETE            &none      &trans          &trans  &trans  &trans  &trans          &trans       &kp LEFT            &kp DOWN         &kp UP          &kp RIGHT   &kp BACKSPACE    &kp ENTER
+    &trans      &none       &none          &none         &none            &none                              &trans  &trans                               &kp HOME           &kp PG_DN      &kp PG_UP            &kp END      &kp DELETE       &trans
+    &trans     &trans      &trans        &kp DOT       &kp DOT                               &trans  &trans  &trans  &trans  &trans  &mo 2                           &kp C_VOLUME_DOWN     &kp C_MUTE    &kp C_VOLUME_UP          &trans       &trans           
             >;
         };
 
